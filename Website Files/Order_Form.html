@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html  xmlns="http://www.w3.org/1999/xhtml"   xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>Make an Order</title>
+<script type="text/javascript" src="swf/swfobject.js"></script>
+<link href="stylesheets/user_styles.css" rel="stylesheet" type="text/css">
+
+<style>
+
+input[type="text"]
+{
+	border-radius:5px;
+	padding:5px 10px;
+	border:1px solid gray;
+}
+
+input[type="submit"]
+{
+	border-radius:5px;
+	padding:5px;
+	border: 1px solid black;
+}
+
+</style>
+
+     </head>
+     <body>
+	<a href="index.html">Home</a>
+	<br/><br/>
+
+       <form action="Order_List.php" method="post">   
+
+<div style="margin-left:auto;margin-right:auto;width:500px;padding:20px;border:5px solid gray;background-color:aliceblue;">
+<table style="margin-left:auto;margin-right:auto;" cellspacing="10">
+  <tr>
+     <td colspan="2" style="text-align:center"><h1>Make an Order</h1></td>
+  </tr>
+  <tr>
+     <td style="text-align:right">Customer ID : </td>
+     <td><input type="text" name="cID"/></td>
+  </tr>
+  <tr>
+     <td style="text-align:right">Order Number : </td>
+     <td><input type="text" name="orderNumber"/></td>
+  </tr>
+  <tr>
+     <td style="text-align:right">Item Name : </td>
+     <td><input type="text" name="itemName" style="width:200px"/></td>
+  </tr>
+  <tr>
+     <td style="text-align:right">Number of Items : </td>
+     <td><input type="text" name="numberOfItems"/></td>
+  </tr>
+  <tr>
+     <td></td>
+     <td style="padding-top:20px"><input type="submit" value= "Place Order"/></td>
+  </tr>
+  <tr>
+     <td  colspan="2" style="padding-top:20px;text-align:center;"><a href="Order_List.php">View Previuos Orders</a></td>
+  </tr>
+</table>
+
+</div>
+
+      </form>   
+  </body> 
+ </html> 
+ 
