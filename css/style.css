@@ -628,6 +628,35 @@ a.active {
 }
 
 
+
+
+.modal,
+.modal > a {
+	width:100%;
+	height:100%;
+	top:0;
+}
+
+.modal {
+	position:fixed;
+	left:-100%;
+	display:flex;
+	overflow:auto;
+}
+
+.modal > a {
+	position:absolute;
+	left:0;
+}
+
+.modal:target {
+	left:0;
+}
+
+.modal > div {
+	position:relative; /* depth sort over outer a
+}
+
 /* contact
 ==================================================*/
 
