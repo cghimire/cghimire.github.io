@@ -106,6 +106,26 @@ $(document).ready(function () {
     //animatedModal
     $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
 
+    
+    
+    
+    // New function added
+    
+    function modalClose(e) {
+	window.history.back();
+	e.preventDefault();
+}
+
+var closeAnchors = d.getElementsByClassName('modalClose');
+for (var i = 0, a; a = closeAnchors[i]; i++) {
+	window.addEventListener(click, modalClose, false);
+}
+ 
+    
+    // End of newly added code
+    
+    
+    
     // Contact Form 	
 
     // validate contact form
