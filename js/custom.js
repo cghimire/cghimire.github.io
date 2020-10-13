@@ -108,35 +108,6 @@ $(document).ready(function () {
 
 
     
-    //New code added by chiranjibi
-    
-       //demo 01
-            $("#demo01").animatedModal();
-
-            //demo 02
-            $("#demo02").animatedModal({
-                animatedIn:'lightSpeedIn',
-                animatedOut:'bounceOutDown',
-                color:'#3498db',
-                // Callbacks
-                beforeOpen: function() {
-                    console.log("The animation was called");
-                },           
-                afterOpen: function() {
-                    console.log("The animation is completed");
-                }, 
-                beforeClose: function() {
-                    console.log("The animation was called");
-                }, 
-                afterClose: function() {
-                    console.log("The animation is completed");
-                }
-            });
-
-    
-    
-    
-    // New code closed
     
     
     
